@@ -3,7 +3,7 @@
   "description": "Wrapper for Highcharts library for Vue.js 3.x",
   "version": "1.0.0",
   "private": false,
-  "main": "./dist/vuejs-highcharts.common.js",
+  "main": "./dist/vuejs3-highcharts.common.js",
   "files": [
     "dist/*",
     "src/*",
@@ -17,21 +17,21 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "build-bundle": "vue-cli-service build --target lib --name vuejs-highcharts ./src/components/index.js",
+    "build-bundle": "vue-cli-service build --target lib --name vuejs3-highcharts ./src/components/index.js",
     "npm-publish": "npm login && npm publish --access public",
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ederssouza/vuejs-highcharts.git"
+    "url": "git+https://github.com/ederssouza/vuejs3-highcharts.git"
   },
   "bugs": {
-    "url": "https://github.com/ederssouza/vuejs-highcharts/issues"
+    "url": "https://github.com/ederssouza/vuejs3-highcharts/issues"
   },
-  "homepage": "https://ederssouza.github.io/vuejs-highcharts",
+  "homepage": "https://ederssouza.github.io/vuejs3-highcharts",
   "keywords": [
-    "vuejs-highcharts",
+    "vuejs3-highcharts",
     "highcharts",
     "charts",
     "chart",
