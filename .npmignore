@@ -1,0 +1,10 @@
+public/
+src/
+tests/
+.editorconfig
+.gitignore
+CONTRIBUTING.md
+LICENSE.md
+README.md
+babel.config.js
+vue.config.js

@@ -1,0 +1,25 @@
+.button--primary {
+  padding: 8px 16px;
+  background-color: var(--accent-color);
+  border-radius: 0 4px 0 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  position: relative;
+  text-decoration: none;
+  text-transform: lowercase;
+  border: 0;
+  outline: none;
+  transition: all .3s ease-out;
+}
+
+.button--secondary {
+  padding: 10px 22px;
+  border: 2px solid var(--primary-color);
+  transition: all 0.5s ease-out;
+}
+
+.button--secondary:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}

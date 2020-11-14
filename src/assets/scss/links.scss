@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
+.link--dark {
+  color: var(--primary-color);
+}
+
+.link--light {
+  color: var(--accent-color);
+}

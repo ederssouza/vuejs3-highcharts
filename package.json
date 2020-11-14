@@ -1,0 +1,80 @@
+{
+  "name": "vuejs3-highcharts",
+  "description": "Wrapper for Highcharts library for Vue.js 3.x",
+  "version": "1.0.0",
+  "private": false,
+  "main": "./dist/vuejs-highcharts.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js",
+    "plugins/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "build-bundle": "vue-cli-service build --target lib --name vuejs-highcharts ./src/components/index.js",
+    "npm-publish": "npm login && npm publish --access public",
+    "deploy": "node scripts/gh-pages-deploy.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederssouza/vuejs-highcharts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ederssouza/vuejs-highcharts/issues"
+  },
+  "homepage": "https://ederssouza.github.io/vuejs-highcharts",
+  "keywords": [
+    "vuejs-highcharts",
+    "highcharts",
+    "charts",
+    "chart",
+    "graphs",
+    "ederssouza"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "highcharts": "^8.2.2",
+    "highlight.js": "^10.3.2",
+    "prismjs": "^1.22.0",
+    "vanillajs-scrollspy": "^2.0.3",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-unit-mocha": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/test-utils": "^2.0.0-0",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.1.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "lint-staged": "^9.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}
