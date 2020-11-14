@@ -1,10 +1,13 @@
 public/
+scripts/
 src/
 tests/
+.browserslistrc
 .editorconfig
+.eslintrc.js
 .gitignore
+babel.config.js
 CONTRIBUTING.md
 LICENSE.md
 README.md
-babel.config.js
 vue.config.js
