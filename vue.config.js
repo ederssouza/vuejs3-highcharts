@@ -3,13 +3,15 @@
 const { join } = require('path')
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/vuejs3-highcharts/'
+    : '/',
   configureWebpack: {
     resolve: {
       alias: {
-        components: join(__dirname, 'src', 'components'),
         views: join(__dirname, 'src', 'views'),
-        utils: join(__dirname, 'src', 'utils'),
-        mixins: join(__dirname, 'src', 'mixins')
+        components: join(__dirname, 'src', 'components'),
+        utils: join(__dirname, 'src', 'utils')
       }
     }
   }
