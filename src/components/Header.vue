@@ -9,7 +9,7 @@
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
         <li class="menu__item">
-          <a href="https://github.com/ederssouza/vuejs-highcharts" class="link link--dark" target="_blank">
+          <a href="https://github.com/ederssouza/vuejs3-highcharts" class="link link--dark" target="_blank">
             <i class="fa fa-github"></i> Github
           </a>
         </li>

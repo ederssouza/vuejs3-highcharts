@@ -7,9 +7,9 @@
 
     <section class="section">
       <h2 class="section__title">Instalation</h2>
-      <pre><code class="zsh">$ npm install vuejs-highcharts --save
+      <pre><code class="zsh">$ npm install vuejs3-highcharts --save
 # OR
-$ yarn add vuejs-highcharts</code></pre>
+$ yarn add vuejs3-highcharts</code></pre>
     </section>
 
     <section class="section">
@@ -18,7 +18,7 @@ $ yarn add vuejs-highcharts</code></pre>
 &lt;ColumnChart :xAxis="chart.xAxis" :series="chart.series" /&gt;</code></pre>
 
       <pre><code class="javascript">// import one or more chart components
-import { ColumnChart } from 'vuejs-highcharts'
+import { ColumnChart } from 'vuejs3-highcharts'
 
 export default {
   components: {
@@ -180,7 +180,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { ColumnChart } from 'vuejs-highcharts'
+import { ColumnChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'BasicChartSample',
@@ -236,7 +236,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { AreaChart } from 'vuejs-highcharts'
+import { AreaChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'AreaChartSample',
@@ -312,7 +312,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { BarChart } from 'vuejs-highcharts'
+import { BarChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'BarChartSample',
@@ -389,7 +389,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { ColumnChart } from 'vuejs-highcharts'
+import { ColumnChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'ColumnChartSample',
@@ -470,7 +470,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { ScatterChart } from 'vuejs-highcharts'
+import { ScatterChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'ScatterChartSample',
@@ -654,7 +654,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { LineChart } from 'vuejs-highcharts'
+import { LineChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'LineChartSample',
@@ -732,7 +732,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { PieChart } from 'vuejs-highcharts'
+import { PieChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'PieChartSample',
@@ -839,7 +839,7 @@ export default {
 &lt;/template&gt;
 
 &lt;script&gt;
-import { CombinationChart } from 'vuejs-highcharts'
+import { CombinationChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'CombinationChartSample',
