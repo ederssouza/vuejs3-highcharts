@@ -1,19 +1,19 @@
 # Vue.js Highcharts
 
-![GitHub](https://img.shields.io/github/license/ederssouza/vuejs-highcharts) ![npm](https://img.shields.io/npm/v/vuejs-highcharts) ![npm](https://img.shields.io/npm/dw/vuejs-highcharts) ![npm](https://img.shields.io/npm/dm/vuejs-highcharts)
+![GitHub](https://img.shields.io/github/license/ederssouza/vuejs3-highcharts) ![npm](https://img.shields.io/npm/v/vuejs3-highcharts) ![npm](https://img.shields.io/npm/dw/vuejs3-highcharts) ![npm](https://img.shields.io/npm/dm/vuejs3-highcharts)
 
 Wrapper for Highcharts library for **Vue.js 3.x**.
 
 ## Documentation
 
-For more features, access [ederssouza.github.io/vuejs-highcharts](https://ederssouza.github.io/vuejs-highcharts/).
+For more features, access [ederssouza.github.io/vuejs3-highcharts](https://ederssouza.github.io/vuejs3-highcharts/).
 
 ## Installation
 
 ```bash
-$ npm install vuejs-highcharts --save
+$ npm install vuejs3-highcharts --save
 # OR
-$ yarn add vuejs-highcharts
+$ yarn add vuejs3-highcharts
 ```
 
 ## Basic usage
@@ -27,7 +27,7 @@ $ yarn add vuejs-highcharts
 </template>
 
 <script>
-import { ColumnChart } from 'vuejs-highcharts'
+import { ColumnChart } from 'vuejs3-highcharts'
 
 export default {
   name: 'BasicChartSample',
